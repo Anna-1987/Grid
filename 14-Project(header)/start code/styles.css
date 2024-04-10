@@ -30,6 +30,12 @@
   margin: auto;
   padding: 0 16px;
 }
+.header-container{
+  display: grid;
+  grid-template-columns: 22px 2fr;
+  gap: 16px;
+  align-items: center;
+}
 
 .posts {
   margin-bottom: 80px;
