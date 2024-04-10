@@ -61,7 +61,7 @@
 }
 @media (min-width: 768px){
   .posts{
-    gap: 24;
+    gap: 24px;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -82,6 +82,11 @@
   font-family: var(--common-font);
 }
 
+.blog{
+  display: grid;
+  gap: 48px;
+}
+
 .blog-link {
   color: var(--common-black);
 }
@@ -90,6 +95,7 @@
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
   margin-bottom: 12px;
+  margin-top: 20px;
 }
 
 .blog-text {
