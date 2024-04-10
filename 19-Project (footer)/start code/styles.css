@@ -208,6 +208,7 @@
 }
 
 .footer {
-  padding: 16px;
+
+  padding: 16px 0px;
   background-color: var(--blue-light);
 }
