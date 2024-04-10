@@ -125,7 +125,10 @@
   font-family: var(--common-font);
   margin-bottom: 24px;
 }
-
+.socials{
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .socials-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -180,6 +183,30 @@
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
   margin-bottom: 24px;
+}
+@media (min-width: 1440px) {
+  .longread {
+    display: grid;
+    grid-template-areas:
+      "b b s"
+      "b b v"
+      "b b .";
+    gap: 60px 24px;
+  }
+
+  .blog {
+    grid-area: b;
+  }
+  .social {
+    grid-area: s;
+  }
+  .video {
+    grid-area: v;
+  }
+  .socials{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 .footer {
